@@ -1,3 +1,26 @@
 .experience {
-  background-color: white;
+}
+
+.experience__title {
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.experience__text {
+  margin-bottom: 32px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.experience__gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.experience__gallery-image {
+  margin: 0 auto;
+  border-radius: 32px;
 }
