@@ -12,7 +12,6 @@
 .experience__gallery {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -24,6 +23,7 @@
 @media (min-width: 768px) {
   .experience__gallery {
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 32px;
   }
 }
