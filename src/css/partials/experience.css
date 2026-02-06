@@ -20,6 +20,13 @@
   gap: 24px;
 }
 
+@media (min-width: 768px) {
+  .experience__gallery {
+    flex-direction: row;
+    gap: 32px;
+  }
+}
+
 .experience__gallery-image {
   margin: 0 auto;
   border-radius: 32px;
