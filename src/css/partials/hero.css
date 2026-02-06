@@ -3,6 +3,7 @@
   padding-bottom: 109px;
   max-width: 320px;
   margin: 0 auto;
+  color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -24,12 +25,10 @@
 .hero-title {
   max-width: 256px;
   margin-bottom: 24px;
-  color: #fff;
 }
 
 .hero-text {
   max-width: 256px;
-  color: #fff;
   margin-bottom: 32px;
 }
 
@@ -40,7 +39,6 @@
   padding: 10px 24px;
   width: 135px;
   height: 44px;
-  color: #fff;
   box-shadow:
     0 1px 2px 0 rgba(11, 8, 3, 0.05),
     inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
@@ -91,5 +89,9 @@
   .hero-link:hover,
   .hero-link:focus {
     opacity: 0.5;
+  }
+
+  .hero-link:active {
+    box-shadow: none;
   }
 }
