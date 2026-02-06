@@ -1,6 +1,6 @@
 .hero {
-  padding-top: 108.5px;
-  padding-bottom: 108.5px;
+  padding-top: 109px;
+  padding-bottom: 109px;
   max-width: 320px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -8,12 +8,12 @@
   background-size: cover;
   background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/src/img/hero/hero.jpg);
+    url(/img/hero/hero.jpg);
 
   @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     background-image:
       linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(/src/img/hero/hero-2x.jpg);
+      url(/img/hero/hero-2x.jpg);
   }
 }
 
@@ -34,8 +34,8 @@
 }
 
 .hero-link {
-  cursor: pointer;
   display: block;
+  font-weight: 500;
   border-radius: 100px;
   padding: 10px 24px;
   width: 135px;
@@ -47,13 +47,13 @@
     inset 0 0 0 1px rgba(11, 8, 3, 0.15),
     inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
     inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-  background: #6f4e37;
+  background-color: #6f4e37;
 }
 
 @media only screen and (min-width: 768px) {
   .hero {
-    padding-top: 311.5px;
-    padding-bottom: 311.5px;
+    padding-top: 312px;
+    padding-bottom: 312px;
     max-width: 768px;
   }
 
@@ -75,7 +75,7 @@
   .hero {
     padding-top: 259px;
     padding-bottom: 259px;
-    max-width: 1140px;
+    max-width: 1440px;
   }
 
   .hero-title {
@@ -90,17 +90,6 @@
 
   .hero-link:hover,
   .hero-link:focus {
-    box-shadow:
-      0 1px 2px 0 rgba(11, 8, 3, 0.05),
-      inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2),
-      inset 0 0 0 1px rgba(11, 8, 3, 0.15),
-      inset 0 2px 1px 0 rgba(255, 255, 255, 0.25),
-      inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
-    background: #6f4e37;
     opacity: 0.5;
-  }
-
-  .hero-link:active {
-    background: #6f4e37;
   }
 }
