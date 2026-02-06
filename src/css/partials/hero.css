@@ -7,17 +7,17 @@
   background-position: center;
   background-size: cover;
   background-image:
-    linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../src/img/hero.img/hero.jpg);
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/src/img/hero/hero.jpg);
 
   @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     background-image:
-      linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url(../src/img/hero.img/hero-2x.jpg);
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(/src/img/hero/hero-2x.jpg);
   }
 }
 
-.container {
+.hero > .container {
   padding: 0 32px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .container {
+  .hero > .container {
     padding: 0 64px;
   }
 
