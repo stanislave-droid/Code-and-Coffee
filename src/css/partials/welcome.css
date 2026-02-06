@@ -57,7 +57,7 @@
 }
 
 .welcome-link:active {
-  opacity: 1;
+  box-shadow: none;
 }
 
 .welcome-img {
