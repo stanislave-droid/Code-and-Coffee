@@ -1,2 +1,58 @@
-.header {
+.page-header {
+  background-color: #e0cbb4;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links-gap {
+  display: none;
+}
+
+.header-logo {
+  padding: 18px 0;
+  display: block;
+}
+.header-svg {
+  display: block;
+}
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icon {
+  display: block;
+  fill: #0b0803;
+}
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .header-container {
+    display: block;
+  }
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-links-gap {
+    display: flex;
+    gap: 32px;
+  }
+
+  .header-list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0803;
+  }
 }
