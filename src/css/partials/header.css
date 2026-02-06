@@ -1,19 +1,14 @@
-.header {
-  background-color: #e0cbb4;
-}
-
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16px;
 }
 
 .header-logo {
   padding: 18px 0;
   display: block;
 }
-.header-svg {
+.header-logo > svg {
   display: block;
 }
 
@@ -26,11 +21,11 @@
   border: none;
   background-color: transparent;
   display: block;
-  box-shadow: none;
+
   border: none;
 }
 
-.burger-icon {
+.burger-btn > svg {
   display: block;
   fill: #0b0803;
 }
@@ -38,15 +33,14 @@
   .burger-btn {
     display: none;
   }
-
   .header-container {
-    display: block;
+    padding: 0 64px;
   }
-
   .header-navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
   }
 
   .nav-links-gap {
@@ -54,9 +48,6 @@
   }
 
   .header-list-link {
-    font-weight: 400;
-    line-height: 1.5;
-    color: #0b0803;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
