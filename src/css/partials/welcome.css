@@ -1,16 +1,14 @@
-.welcome-section {}
-
-
-
+.welcome-section {
+  min-width: 375px;
+}
 
 .welcome-container {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
-
-.container-hero {}
 
 .welcome-word {
   font-family: "Quicksand", sans-serif;
@@ -22,14 +20,12 @@
 }
 
 .welcome-hero {
-  font-size: 48px;
-  width: 640px;
+  font-size: 36px;
+  width: 288px;
 }
 
-.container-about {}
-
 .welcome-text {
-  width: 640px;
+  width: 288px;
   margin-bottom: 32px;
 
 }
@@ -37,9 +33,7 @@
 .welcome-link {
   cursor: pointer;
   border-radius: 100px;
-  padding: 10px 24px;
-  width: 181px;
-  height: 44px;
+  padding: 10px 77.5px;
   box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
   background: #6f4e37;
   font-weight: 500;
@@ -64,12 +58,68 @@
 
 .welcome-link:active {
   opacity: 1;
-  ;
 }
-
 
 .welcome-img {
   border-radius: 40px;
-  max-width: 1312px;
-  margin-top: 80px;
+  max-width: 288px;
+  height: 162px;
+  margin: 32px auto 0 auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width:768px) {
+  .welcome-section {
+    min-width: 768px;
+  }
+
+  .welcome-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .welcome-hero {
+    width: 336px;
+  }
+
+  .welcome-text {
+    width: 336px;
+  }
+
+  .welcome-link {
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 181px;
+    height: 44px;
+  }
+
+  .welcome-img {
+    height: 396px;
+    max-width: 704px;
+  }
+}
+
+@media screen and (min-width:1440px) {
+  .welcome-section {
+    min-width: 1440px;
+  }
+
+  .welcome-hero {
+    font-size: 48px;
+    width: 640px;
+  }
+
+  .welcome-text {
+    width: 640px;
+  }
+
+  .welcome-img {
+    max-width: 1312px;
+    height: 738px;
+    margin-top: 80px;
+  }
+
 }
