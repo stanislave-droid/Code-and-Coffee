@@ -4,11 +4,10 @@
 
 .quality-header {
   max-width: 768px;
-  margin: 0 auto 48px;
+  margin: 0 auto 32px;
   display: flex;
   flex-direction: column;
 }
-
 
 .quality-label {
   font-size: 16px;
@@ -18,7 +17,7 @@
 
 .quality-title {
   font-size: 36px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .quality-list {
@@ -28,7 +27,6 @@
 }
 
 .quality-item {
-  /* font-size: 16px; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -55,7 +53,6 @@
   display: block;
 }
 
-
 @media screen and (min-width: 768px) {
 
   .quality-list {
@@ -74,10 +71,7 @@
   
     aspect-ratio: 704 / 401;
   }
-
-  
 }
-
 
 @media screen and (min-width: 1440px) {
 
