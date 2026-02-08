@@ -3,12 +3,12 @@
 }
 
 
-.container {
+/* .container {
 min-width:320px;
 max-width:375px;
 margin: 0 auto ;
 padding:0 16px;
-}
+} */
 
 
 .location-container {
@@ -114,10 +114,10 @@ font-size: 18px;
 
 
  @media screen and (min-width: 768px) {
-          .container {
+          /* .container {
             max-width: 768px;
             padding: 0px 32px;
-          }
+          } */
          .location-list {
          flex-wrap: nowrap;
          }
