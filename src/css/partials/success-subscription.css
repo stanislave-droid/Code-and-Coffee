@@ -16,7 +16,7 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-overlay.is-open {
+.modal-overlay.subscription-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
