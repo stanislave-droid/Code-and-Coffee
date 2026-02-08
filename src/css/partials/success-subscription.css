@@ -22,7 +22,7 @@
   visibility: visible;
 }
 
-.modal-overlay:not(.is-open) .modal {
+.modal-overlay:not(.subscription-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
 
@@ -45,7 +45,6 @@
   border: none;
   background-color: transparent;
   padding: 0;
-  border-radius: none;
 }
 
 .modal-svg-btn {
