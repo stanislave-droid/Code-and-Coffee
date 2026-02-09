@@ -14,11 +14,9 @@
 
 .welcome-hero {
   font-size: 36px;
-  max-width: 288px;
 }
 
 .welcome-text {
-  max-width: 288px;
   margin-bottom: 32px;
 
 }
@@ -55,7 +53,6 @@
 
 .welcome-img {
   border-radius: 40px;
-  max-width: 288px;
   height: 162px;
   margin: 32px auto 0 auto;
   object-fit: cover;
