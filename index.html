@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <script type="module" crossorigin src="/Code-and-Coffee/index.js"></script>
     <link rel="stylesheet" crossorigin href="/Code-and-Coffee/assets/index-DRTmWe7p.css">
   </head>
@@ -62,8 +63,10 @@
       <!-- Loads the specified .html file -->
       <section class="hero">
   <div class="container hero-container">
-    <h1 class="hero-title">Savor the Essence of Specialty Coffee</h1>
-    <p class="hero-text">
+    <h1 class="hero-title" data-aos="fade-up">
+      Savor the Essence of Specialty Coffee
+    </h1>
+    <p class="hero-text" data-aos="fade-up" data-aos-delay="200">
       At CoffeeJoy, we believe every cup tells a story. Join us in exploring the
       rich flavors and aromas of our carefully curated coffee selections.
     </p>
@@ -75,17 +78,23 @@
   <div class="container">
     <div class="welcome-container">
       <div class="container-hero">
-        <p class="welcome-word">Welcome</p>
-        <h2 class="welcome-hero">Our Journey: Passion for Quality Coffee</h2>
+        <p class="welcome-word" data-aos="fade-down">Welcome</p>
+        <h2 class="welcome-hero" data-aos="fade-up" data-aos-delay="200">
+          Our Journey: Passion for Quality Coffee
+        </h2>
       </div>
       <div class="container-about">
-        <p class="welcome-text">
+        <p class="welcome-text" data-aos="fade-up" data-aos-delay="400">
           At CoffeeJoy, we believe that every cup tells a story. Our mission is
           to bring you the finest coffee experiences, crafted with care and
           dedication. We are committed to sourcing high-quality beans and
           roasting them to perfection, ensuring each sip is a delight.
         </p>
-        <a class="welcome-link" href="#location"
+        <a
+          class="welcome-link"
+          href="#Location"
+          data-aos="fade-up"
+          data-aos-delay="600"
           >Find location
           <svg class="welcome-link-svg" width="24" height="24">
             <use href="/Code-and-Coffee/assets/icons-CB1tDyQT.svg#icon-map-pin"></use>
@@ -93,7 +102,7 @@
         </a>
       </div>
     </div>
-    <picture>
+    <picture data-aos="zoom-in" data-aos-delay="800">
       <source
         media="(min-width: 1440px)"
         srcset="/Code-and-Coffee/assets/welcome-desk-BL9O33Ve.jpg 1x, /Code-and-Coffee/assets/welcome-desk@2x-CRzrPwt2.jpg 2x"
@@ -117,11 +126,13 @@
       <section class="quality" id="benefits">
   <div class="container">
     <div class="quality-header">
-      <p class="quality-label">Quality</p>
+      <p class="quality-label" data-aos="fade-down">Quality</p>
 
-      <h2 class="quality-title">WHY COFFEEJOY STANDS OUT FROM THE REST</h2>
+      <h2 class="quality-title" data-aos="fade-up" data-aos-delay="200">
+        WHY COFFEEJOY STANDS OUT FROM THE REST
+      </h2>
 
-      <p class="quality-text">
+      <p class="quality-text" data-aos="fade-up" data-aos-delay="400">
         At CoffeeJoy, we pride ourselves on delivering the freshest roasted
         coffee, crafted with care by our skilled baristas. Our flexible
         subscription plans ensure that your coffee experience is tailored to
@@ -130,7 +141,7 @@
     </div>
 
     <ul class="quality-list">
-      <li class="quality-item">
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="100">
         <picture>
           <source
             media="(min-width: 1440px)"
@@ -153,7 +164,7 @@
         <p>Savor the rich flavors of our expertly sourced beans.</p>
       </li>
 
-      <li class="quality-item">
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="150">
         <picture>
           <source
             media="(min-width: 1440px)"
@@ -173,10 +184,12 @@
         </picture>
 
         <h3>Expert Baristas Crafting Your Perfect Brew</h3>
-        <p>Our baristas are passionate about coffee and skilled in their craft.</p>
+        <p>
+          Our baristas are passionate about coffee and skilled in their craft.
+        </p>
       </li>
 
-      <li class="quality-item">
+      <li class="quality-item" data-aos="fade-up" data-aos-delay="200">
         <picture>
           <source
             media="(min-width: 1440px)"
@@ -211,7 +224,7 @@
       Experience the warmth and community of CoffeeJoy.
     </p>
     <ul class="experience__gallery">
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="100">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/latte-desktop-CNXnWUcx.jpg 1x, /Code-and-Coffee/assets/latte-desktop@2x-CmnC3Yqw.jpg 2x"
@@ -232,7 +245,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="200">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/croissant-desktop-DCSbe3gX.jpg 1x, /Code-and-Coffee/assets/croissant-desktop@2x-BlUcES6y.jpg 2x"
@@ -253,7 +266,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="300">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/book-desktop-8IpCA9fs.jpg 1x, /Code-and-Coffee/assets/book-desktop@2x-DIXBCscW.jpg 2x"
@@ -274,7 +287,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="400">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/pouring-desktop-CtS42lyC.jpg 1x, /Code-and-Coffee/assets/pouring-desktop@2x-BAzamxma.jpg 2x"
@@ -295,7 +308,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="500">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/wide-view-desktop-m0Wd00f-.jpg 1x, /Code-and-Coffee/assets/wide-view-desktop@2x-BUziUAVs.jpg 2x"
@@ -316,7 +329,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="600">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/two-cups-desktop-Dr8r6yTp.jpg 1x, /Code-and-Coffee/assets/two-cups-desktop@2x-BYNPJBEW.jpg 2x"
@@ -337,7 +350,7 @@
           />
         </picture>
       </li>
-      <li>
+      <li data-aos="zoom-in" data-aos-delay="700">
         <picture>
           <source
             srcset="/Code-and-Coffee/assets/takeaway-cup-desktop-BUl8ap3w.jpg 1x, /Code-and-Coffee/assets/takeaway-cup-desktop@2x-Dd587Uw8.jpg 2x"
@@ -365,27 +378,31 @@
       <section id="subscribe" class="subscribe">
   <div class="container subscribe-container">
     <div class="subscribe-column">
-      <div class="subscribe-content">
+      <div class="subscribe-content" data-aos="fade-right" data-aos-delay="100">
         <h2 class="section-title">Join Our Coffee Community</h2>
         <p class="subscribe-content-text">
-          Experience the joy of coffee delivered right to your door. Sign up today!
+          Experience the joy of coffee delivered right to your door. Sign up
+          today!
         </p>
       </div>
 
       <div class="subscribe-actions">
         <form class="subscribe-form">
           <div class="subscribe-form-field">
-            <input 
-              type="email" 
-              id="subscribe-input-email" 
-              name="subscribe-email" 
-              required 
-              placeholder="Your Email Here" 
-              aria-label="subscribe email input" 
+            <input
+              type="email"
+              id="subscribe-input-email"
+              name="subscribe-email"
+              required
+              placeholder="Your Email Here"
+              aria-label="subscribe email input"
               class="subscribe-form-input"
-            >
+            />
             <p class="subscribe-form-error-text"></p>
-            <label for="subscribe-input-email" class="subscribe-form-label"></label>
+            <label
+              for="subscribe-input-email"
+              class="subscribe-form-label"
+            ></label>
           </div>
           <button type="submit" class="subscribe-form-button">
             <span>
@@ -403,34 +420,36 @@
         </p>
       </div>
     </div>
-    
-    <picture class="subscribe-picture">
-      <source 
-        srcset="/Code-and-Coffee/assets/coffee-community-mobile-Do2RNzrl.jpg 1x, /Code-and-Coffee/assets/coffee-community-mobile-2x-DLQCSZKI.jpg 2x" 
+
+    <picture class="subscribe-picture" data-aos="zoom-in" data-aos-delay="150">
+      <source
+        srcset="/Code-and-Coffee/assets/coffee-community-mobile-Do2RNzrl.jpg 1x, /Code-and-Coffee/assets/coffee-community-mobile-2x-DLQCSZKI.jpg 2x"
         media="(max-width: 767px)"
-      >
-      <source 
+      />
+      <source
         srcset="/Code-and-Coffee/assets/coffee-community-tablet-CS634jim.jpg 1x, /Code-and-Coffee/assets/coffee-community-tablet-2x-DCM68bdU.jpg 2x"
         media="(max-width: 1439px)"
-      >
-      <source 
+      />
+      <source
         srcset="/Code-and-Coffee/assets/coffee-community-desktop-BXf_GBpF.jpg 1x, /Code-and-Coffee/assets/coffee-community-desktop-2x-Cuz18WlR.jpg 2x"
         media="(min-width: 1440px)"
-      >
-      <img 
-        src="/Code-and-Coffee/assets/coffee-community-tablet-CS634jim.jpg" 
-        alt="coffee community" 
+      />
+      <img
+        src="/Code-and-Coffee/assets/coffee-community-tablet-CS634jim.jpg"
+        alt="coffee community"
         width="704"
-      >
+      />
     </picture>
   </div>
 </section>
 
       <section class="testimonials" id="testimonial">
   <div class="container">
-    <h2 class="testimonials-headding">What our visitors say</h2>
+    <h2 class="testimonials-headding" data-aos="fade-up">
+      What our visitors say
+    </h2>
     <ul class="testimonials-list">
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -464,7 +483,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Name Surname</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="150">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -498,7 +517,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Alice Johnson</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="200">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -532,7 +551,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Michael Smith</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="250">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -566,7 +585,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Emily Davis</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="300">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -600,7 +619,7 @@
         </p>
         <h3 class="testimonials-visitors-name">James Brown</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="350">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -634,7 +653,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Sarah Wilson</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="400">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -668,7 +687,7 @@
         </p>
         <h3 class="testimonials-visitors-name">Chris Lee</h3>
       </li>
-      <li class="testimonials-items">
+      <li class="testimonials-items" data-aos="fade-up" data-aos-delay="450">
         <ul class="testimonials-icon-list">
           <li class="testimonials-icon-item">
             <svg width="20" height="19">
@@ -893,5 +912,6 @@
 </div>
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
