@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #e0cbb4;
   font-family: 'Quicksand', sans-serif;
