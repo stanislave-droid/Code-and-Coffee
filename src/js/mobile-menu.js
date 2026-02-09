@@ -6,7 +6,14 @@
     closeMenuBtn: document.querySelector('[data-menu-close]'),
     // Додати атрибут data-modal на бекдроп модалки
     menu: document.querySelector('[data-menu]'),
+    menulink: document.querySelector('.nav-list-mobile'),
   };
+
+  refs.menulink.addEventListener('click', event => {
+    if (event.target.classList == 'header-list-link') {
+      toggleModal();
+    }
+  });
 
   refs.openMenuBtn.addEventListener('click', toggleModal);
   refs.closeMenuBtn.addEventListener('click', toggleModal);
