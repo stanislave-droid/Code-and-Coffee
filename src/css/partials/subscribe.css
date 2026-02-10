@@ -36,7 +36,7 @@
   color: #7f1c1c;
 }
 
-.subscribe-form-input:user-invalid+.subscribe-form-error-text {
+.subscribe-form-input:user-invalid + .subscribe-form-error-text {
   display: block;
 }
 
